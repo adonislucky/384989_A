@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Click Counter Audio Player",
+  "version": "1.0",
+  "description": "Plays an MP3 every 10 mouse clicks.",
+  "permissions": [
+    "activeTab",
+	"storage"
+  ],
+  "background": {
+  "service_worker": "background.js"
+  },
+	"action": {
+		"default_popup": "popup.html"
+	  }
+	
+}
